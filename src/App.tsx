@@ -1,10 +1,12 @@
-import { Button, Typography } from '@mui/material'
+import { Routes, Route } from 'react-router-dom'
+import { Login } from './screens/Login/Login';
+import { homePath } from './utlis/routes';
 
 function App() {
   return (
-    <div>
-      <Typography>This is the starting Point for Our Project</Typography>
-    </div>
+    <Routes>
+      <Route path={homePath} element={<Login />} />
+    </Routes>
   );
 }
 
