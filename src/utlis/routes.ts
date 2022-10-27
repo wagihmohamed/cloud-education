@@ -1,5 +1,5 @@
 enum Routes {
-  homeRoute = '/',
+  homeRoute = '/login',
 }
 
 export const homePath = Routes.homeRoute;
