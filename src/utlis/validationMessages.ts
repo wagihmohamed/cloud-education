@@ -1,4 +1,9 @@
 export const requiredEmail = 'Email is Required';
+export const requiredFirstName="First Name Required"
+export const requiredLastName="Last Name Required"
+export const requiredPhone="Phone Number Required"
 export const wrongEmail = 'Please Provide valid email format';
 export const shortPassword = 'Password must be +8 charachters';
 export const requiredPassword = 'You must enter your password';
+export const requiredConfrimPassword = 'You must enter your confirm password';
+export const wrongConfirmPassword="Confrim Password not match"
